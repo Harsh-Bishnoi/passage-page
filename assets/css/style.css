@@ -320,6 +320,10 @@
     background: #E6F1FD1A;
 }
 
+.footer-line {
+    border: 1px solid var(--color-white);
+}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
