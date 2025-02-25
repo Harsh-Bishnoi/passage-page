@@ -138,8 +138,6 @@
     border-radius: 108.64px;
 }
 
-
-
 /* section 4 */
 .bg-img-2 {
     background-image: url(../images/png/section-4-bg-img.png);
@@ -216,6 +214,67 @@
 
 .max-w-697 {
     max-width: 697px;
+}
+
+/* section 6 */
+.mt-11 {
+    margin-top: 11px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-130 {
+    margin-bottom: 130px;
+}
+
+.box-2 {
+    max-width: 364px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #0000001A;
+    padding-bottom: 63px;
+    padding-top: 59px;
+    transition: all 200ms linear;
+}
+
+.box-3 {
+    max-width: 364px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 1px solid #0000001A;
+    padding-bottom: 73px;
+    transition: all 200ms linear;
+    padding-top: 59px;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    top: -35px;
+    left: 40%;
+    background-color: var(--color-light-blue);
+    transition: all 200ms linear;
+}
+
+.box-2:hover,
+.box-3:hover {
+    box-shadow: 0px 4px 16px 0px #1A2C0014;
+}
+
+.box-2:hover .circle,
+.box-3:hover .circle {
+    background-color: var(--color-blue);
+
+    path {
+        fill: var(--color-white);
+    }
+}
+
+.mt-80 {
+    margin-top: 80px !important;
 }
 
 @media (max-width:991.98px) {
