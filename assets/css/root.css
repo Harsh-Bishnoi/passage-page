@@ -1,0 +1,43 @@
+:root {
+    --font-family-primary: "Rubik", serif;
+    /* font size */
+    --fs-sm: 24px;
+    --fs-md: 32px;
+    --fs-lg: 48px;
+    /* ---color--- */
+    --color-white: white;
+    --bg-blue: #006EE6;
+    --color-blue: #006EE6;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+/* font size */
+.fs-sm {
+    font-size: var(--fs-sm) !important;
+}
+
+.fs-md {
+    font-size: var(--fs-md) !important;
+}
+
+.fs-lg {
+    font-size: var(--fs-lg) !important;
+}
+
+/* color */
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+.color-blue {
+    color: var(--color-blue);
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 30px;
+        --fs-sm: 16px;
+    }
+}
