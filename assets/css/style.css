@@ -134,6 +134,28 @@
     border-radius: 108.64px;
 }
 
+
+/* section 4 */
+.bg-img-2 {
+    background-image: url(../images/png/section-4-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.max-w-558 {
+    max-width: 558px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+.mb-92{
+    margin-bottom: 92px;
+}
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;

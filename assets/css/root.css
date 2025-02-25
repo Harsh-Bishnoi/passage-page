@@ -8,6 +8,7 @@
     --color-white: white;
     --bg-blue: #006EE6;
     --color-blue: #006EE6;
+    --color-eight-ball: #00060c;
 }
 
 .font-family-primary {
@@ -31,13 +32,18 @@
 .bg-blue {
     background-color: var(--bg-blue);
 }
+
 .color-blue {
     color: var(--color-blue);
 }
 
+.color-eight-ball {
+    color: var(--color-eight-ball);
+}
+
 @media (max-width:575.98px) {
     :root {
-        --fs-lg: 30px;
+        --fs-lg: 28px;
         --fs-sm: 16px;
     }
 }
