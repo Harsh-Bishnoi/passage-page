@@ -40,7 +40,7 @@
 }
 
 .py-16 {
-    padding-top: 22px;
+    padding-top: 16px;
     padding-bottom: 16px;
 }
 
@@ -53,6 +53,12 @@
 .nav-btn:hover {
     background-color: var(--color-white) !important;
     color: var(--color-blue) !important;
+}
+
+.navbar-blur {
+    background: #0000000A;
+    border-bottom: 1px solid #FFFFFF33;
+    backdrop-filter: blur(30px);
 }
 
 .navbar-link:hover,
@@ -92,6 +98,24 @@
     background-image: url(../images/png/header-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.header-top-img {
+    top: 8.5%;
+    left: 0;
+}
+
+.header-bottom-img {
+    bottom: 0;
+    right: 0;
+}
+
+.max-w-1104 {
+    max-width: 1104px;
+}
+
+.max-w-1096 {
+    max-width: 1096px;
 }
 
 .max-w-679 {
@@ -218,6 +242,24 @@
 
 .mb-92 {
     margin-bottom: 92px;
+}
+
+.left-img {
+    bottom: 0;
+    left: 0;
+}
+
+.max-w-364 {
+    max-width: 364px;
+}
+
+.max-w-779 {
+    max-width: 779px;
+}
+
+.right-img {
+    top: 0;
+    right: 0;
 }
 
 /* section 5 accordion */
@@ -388,25 +430,6 @@
 }
 
 @media (max-width:991.98px) {
-    .nav-link {
-        display: flex !important;
-        flex-direction: column;
-        width: 100%;
-        min-height: 100vh;
-        position: fixed;
-        justify-content: center;
-        bottom: 0;
-        right: -100% !important;
-        top: 0%;
-        transition: all 300ms linear !important;
-        z-index: 5;
-        backdrop-filter: blur(60px);
-    }
-
-    .show-navbar {
-        right: 0 !important;
-    }
-
     .bg-img {
         background-position: center;
     }
@@ -426,4 +449,30 @@
     .slick-dots {
         right: 38% !important;
     }
+
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+        backdrop-filter: blur(60px) !;
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+
+
+    .header-top-img {
+        top: 8.7%;
+        left: 0;
+    }
+
 }
