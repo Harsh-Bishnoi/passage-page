@@ -176,6 +176,8 @@
 .section-5 .accordion-button {
     padding-left: 0 !important;
     margin-bottom: 34px !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
 }
 
 .section-5 .accordion-button:not(.collapsed) {
