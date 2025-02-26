@@ -95,7 +95,7 @@
 }
 
 .header-top-img {
-    top: 8.5%;
+    top: 80.4px;
     left: 0;
 }
 
@@ -170,6 +170,21 @@
     backdrop-filter: blur(9.492682456970215px);
     border: 0.53px solid #FFFFFF33;
     border-radius: 108.64px;
+    transition: all 300ms linear;
+}
+
+.box:hover {
+    background-color: var(--color-blue);
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    z-index: 10;
+    background-color: transparent;
+    border: none;
 }
 
 /* section 2*/
@@ -306,7 +321,7 @@
     display: grid;
     grid-column: auto;
     grid-row: auto;
-    grid-gap: 16.55px !important;
+    grid-gap: 24px !important;
 }
 
 .parent-grid .grid-item-1 {
@@ -575,6 +590,10 @@
 
     .max-w-264 {
         max-width: 164px;
+    }
+
+    .bottom-box {
+        margin-left: 12px;
     }
 }
 
