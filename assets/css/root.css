@@ -1,5 +1,7 @@
 :root {
     --font-family-primary: "Rubik", serif;
+    --font-family-second: "Poppins", serif;
+    --font-family-third: "Inter", serif;
     /* font size */
     --fs-sm: 24px;
     --fs-md: 32px;
@@ -12,11 +14,19 @@
     --color-light-blue: #E6F1FD;
     --color-light-black: #E6F1FD1A;
     --color-independence: #4D5271;
-    --lindworm-green:#1A2C0014;
+    --lindworm-green: #1A2C0014;
 }
 
 .font-family-primary {
     font-family: var(--font-family-primary);
+}
+
+.font-family-second {
+    font-family: var(--font-family-second);
+}
+
+.font-family-third {
+    font-family: var(--font-family-third);
 }
 
 /* font size */
