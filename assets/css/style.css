@@ -611,6 +611,14 @@
     .bottom-box {
         margin-left: 12px;
     }
+
+    .gap-54 {
+        gap: 0;
+    }
+
+    .max-h-293 {
+        max-height: 204px;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -655,12 +663,3 @@
         backdrop-filter: blur(30px);
     }
 }
-
-/* clipPath{
-    clip-path: circle(57.5% at 36% 100%);
-} */
-
-
-/* clipPath hover{
-    clip-path: circle(118.8% at 36% 100%);
-} */
