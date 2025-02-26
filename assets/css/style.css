@@ -55,6 +55,10 @@
     color: var(--color-blue) !important;
 }
 
+.navbar-link {
+    transition: all 200ms linear;
+}
+
 .navbar-link:hover,
 .footer-link:hover {
     color: var(--color-blue) !important;
@@ -379,6 +383,7 @@
     background-image: url(../images/png/section-4-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 .mt-93 {
@@ -475,23 +480,23 @@
 }
 
 .box-2 {
-    max-width: 364px;
+    max-width: 365px;
     border-radius: 10px;
     background: var(--color-white);
     border: 1px solid #0000001A;
     padding-bottom: 63px;
     padding-top: 59px;
-    transition: all 200ms linear;
+    transition: all 400ms linear !important;
 }
 
 .box-3 {
-    max-width: 364px;
+    max-width: 365px;
     border-radius: 10px;
     background: var(--color-white);
     border: 1px solid #0000001A;
     padding-bottom: 73px;
-    transition: all 200ms linear;
-    padding-top: 59px;
+    transition: all 400ms linear !important;
+    padding-top: 60px;
 }
 
 .circle {
@@ -501,12 +506,13 @@
     top: -35px;
     left: 40%;
     background-color: var(--color-light-blue);
-    transition: all 200ms linear;
+    transition: all 400ms linear !important;
 }
 
 .box-2:hover,
 .box-3:hover {
     box-shadow: 0px 4px 16px 0px var(--lindworm-green);
+    border: 0;
 }
 
 .box-2:hover .circle,
@@ -545,6 +551,10 @@
 
 .pt-20 {
     padding-top: 20px;
+}
+
+.footer-link {
+    transition: all 200ms linear;
 }
 
 .footer-circle {
