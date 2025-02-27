@@ -80,6 +80,10 @@
     line-height: 26.4px;
 }
 
+.lh-30 {
+    line-height: 30px;
+}
+
 .lh-48 {
     line-height: 48px;
 }
@@ -198,10 +202,6 @@
     max-width: 643px;
 }
 
-.opacity-15 {
-    opacity: 15%;
-}
-
 .pt-10 {
     padding-top: 10px;
 }
@@ -210,116 +210,133 @@
     margin-top: 100px !important;
 }
 
-.card {
-    border-radius: 30px;
-}
-
-.card-heading {
-    text-align: center;
-    top: 2%;
-    left: 50%;
-    transform: translateX(-50%);
+.card-box {
+    height: 474px;
+    max-width: 364px;
     width: 100%;
-}
-
-.card-content {
-    bottom: 5%;
-    left: 5%;
-}
-
-.card-container {
-    position: relative;
-    overflow: hidden;
     border-radius: 30px;
-    transition: transform 0.3s ease-in-out;
+    background-image: url(../images/png/section-2-card-img-1.png);
+    transition: all 300ms linear;
 }
 
-.card-container:hover {
+.card-box-2 {
+    height: 474px;
+    max-width: 364px;
+    width: 100%;
+    border-radius: 30px;
+    background-image: url(../images/png/section-2-card-img-2.png);
+    transition: all 300ms linear;
+}
+
+.card-box-3 {
+    height: 474px;
+    max-width: 364px;
+    width: 100%;
+    border-radius: 30px;
+    background-image: url(../images/png/section-2-card-img-3.png);
+    transition: all 300ms linear;
+}
+
+.card-box:hover,
+.card-box-2:hover,
+.card-box-3:hover {
     transform: translateY(-40px);
 }
 
-.card-container:hover .card-heading {
-    top: auto;
-    bottom: 5%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-.card-container img {
+.card-box .blur-circle,
+.card-box-2 .blur-circle,
+.card-box-3 .blur-circle {
+    clip-path: circle(47.5% at 38% 98%);
+    background: #006EE60A;
+    backdrop-filter: blur(15px);
+    height: 100%;
     width: 100%;
-    transition: transform 0.3s ease-in-out;
-    border: none;
-}
-
-.card-container {
-    position: relative;
-    overflow: hidden;
     border-radius: 30px;
-    transition: all 0.3s ease-in-out;
+    transition: all 300ms linear;
+    overflow: hidden;
 }
 
-.top-55 {
-    top: 55%;
+.card-box:hover .blur-circle,
+.card-box-2:hover .blur-circle,
+.card-box-3:hover .blur-circle {
+    clip-path: circle(141.4% at 0 100%);
+}
+
+.d_block {
+    transition: all 300ms linear !important;
+}
+
+.d_none {
+    transition: all 300ms linear !important;
+}
+
+.card-box:hover .d_none,
+.card-box-2:hover .d_none,
+.card-box-3:hover .d_none {
+    display: none !important;
+}
+
+.card-box:hover .d_block,
+.card-box-2:hover .d_block,
+.card-box-3:hover .d_block {
+    display: block !important;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.border-radius-90 {
+    border-radius: 90px !important;
+}
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.opacity-15 {
+    opacity: 15%;
+}
+
+.bottom-20 {
+    bottom: 20px;
+}
+
+.left-145 {
+    left: 145px;
+}
+
+.top-10 {
+    top: 10px;
+}
+
+.left-47 {
+    left: 47px;
+}
+
+.max-w-244 {
+    max-width: 244px;
+}
+
+.bottom_97 {
+    bottom: 97px;
 }
 
 .left-20 {
-    left: -20%;
-}
-
-.blur-box {
-    backdrop-filter: blur(10px);
-    border: 1px solid #FFFFFF33;
-    width: 405px;
-    height: 405px;
-    border-radius: 100%;
-    right: 0;
-}
-
-/* Hide overlay initially */
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    background: #00000066;
-    border: 1px solid #FFFFFF33;
-    backdrop-filter: blur(30px);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-}
-
-/* Hide card content */
-.card-content {
-    z-index: 1;
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* On hover */
-.card-container:hover .overlay {
-    opacity: 1;
-    visibility: visible;
-}
-
-.card-container:hover .card-content {
-    opacity: 0;
-}
-
-.card-container:hover .blur-box {
-    display: none;
-}
-
-.card-container:hover .overlay {
-    opacity: 5;
-}
-
-.card-container:hover img {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-    border: none;
+    left: 20px;
 }
 
 /* section 3 */
@@ -419,7 +436,6 @@
 }
 
 /* section 5 accordion */
-
 .section-5 .accordion {
     max-width: 807px;
     --bs-accordion-border-width: none !important;
@@ -645,6 +661,9 @@
         right: 0 !important;
     }
 
+    .left-145 {
+        left: 110px;
+    }
 
     .header-top-img {
         top: 8.7%;
@@ -661,5 +680,11 @@
         background: #0000000A;
         border-bottom: 1px solid #FFFFFF33;
         backdrop-filter: blur(30px);
+    }
+}
+
+@media (max-width:1074.98px) {
+    .left-47 {
+        left: 26px;
     }
 }
