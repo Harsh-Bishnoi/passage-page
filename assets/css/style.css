@@ -155,7 +155,6 @@
 }
 
 .slick-dots .slick-active {
-    width: 40px;
     background-color: var(--color-blue);
     border-radius: 10px;
     height: 6px;
@@ -388,9 +387,8 @@
     max-width: 425px;
 }
 
-.py-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
+.mt-60{
+    margin-top: 60px;
 }
 
 .max-w-558 {
@@ -634,6 +632,14 @@
 
     .max-h-293 {
         max-height: 204px;
+    }
+
+    .mb-130{
+        margin-bottom: 60px;
+    }
+
+    .my-130{
+        margin-bottom: 60px;
     }
 }
 
