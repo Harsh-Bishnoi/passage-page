@@ -530,7 +530,7 @@
 .box-2:hover,
 .box-3:hover {
     box-shadow: 0px 4px 16px 0px var(--lindworm-green);
-    border: 0;
+    border: transparent;
 }
 
 .box-2:hover .circle,
